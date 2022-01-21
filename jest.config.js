@@ -32,4 +32,10 @@ module.exports = {
     '^.+\\.module\\.(css|sass|scss)$',
   ],
   testEnvironment: 'jest-environment-jsdom',
+  modulePathIgnorePatterns: [
+    "<rootDir>/components/MyHead.js",
+    "<rootDir>/next.config.js",
+    "<rootDir>/jest.setup.js",
+    "<rootDir>/jest.config.js",
+  ]
 }
