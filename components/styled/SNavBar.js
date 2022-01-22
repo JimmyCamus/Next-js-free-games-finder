@@ -12,6 +12,7 @@ const SNavbar = styled.nav`
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   background-color: #303030;
   width: 100%;
+  margin-bottom: 50px;
 
   @media screen and (max-width: 768px) {
     padding: 0 5px;

@@ -7,9 +7,13 @@ const NavBar = () => {
   return (
     <div>
       <SNavbar>
-        <Logo />
+        <Link href="/">
+          <a>
+            <Logo />
+          </a>
+        </Link>
         <div>
-          <Link href="/games">
+          <Link href="/games/popularity">
             <a data-testid="gamesLink">
               <SP
                 fontSize="20px"

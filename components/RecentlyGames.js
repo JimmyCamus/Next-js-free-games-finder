@@ -50,7 +50,7 @@ const RecentlyGames = ({ data }) => {
           </SCard>
         </Link>
       ))}
-      <Button href="/games">More games</Button>
+      <Button href="/games/popularity">More games</Button>
     </SContainer>
   );
 };
