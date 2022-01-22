@@ -1,9 +1,11 @@
 import GamePage from "../../components/GamePage";
 import Navbar from "../../components/Navbar"
+import MyHead from "../../components/MyHead";
 
 const Game = ({ data }) => {
   return (
     <div data-testid="container">
+      <MyHead title="Free games finder" meta="search free games" />
       <Navbar />
       <GamePage data={data} />
     </div>
